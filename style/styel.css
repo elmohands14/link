@@ -155,7 +155,10 @@ background-color: #1b9110;
     outline: none;
     padding-right: 10px;
     font-size: 17px;
-    
+    outline-style: solid;
+outline-color: #817e7e;
+outline-width: thin;
+
     
 }
 .box-login form label{
@@ -172,6 +175,7 @@ background-color: #1b9110;
     background-color: #1b9110;
     color: white;
     font-family: test;
+    outline: none;
 }
 .box-login form input[type="submit"]:hover{
     background-color: #33b328; 
@@ -180,16 +184,54 @@ background-color: #1b9110;
     margin-top: 40px; }
 
 .end-h span{font-size: 15px;font-family: test;}
+.box-login input:focus{
+    outline-style: solid;
+outline-color: #414141;
+outline-width: thin;
+}
+
+/*========================= create page ==============*/
+.box-create{    clear: both; width: 600px; height: 500px;   margin: auto; margin-top: 200px;
+    background-color: #ffffff;}
+
+.title-create{    float: right; padding: 15px; font-family: test; font-size: 20px;}
+.box-create label{ float: right;margin-right: 40px; margin-top: 25px;}
+.box-create input{  float: right; margin-right: 40px; margin-top: 20px;height: 40px;width: 230px;
+border: none;
+background-color: rgb(229, 231, 233); text-align: right;  padding-right: 10px; 
+outline-style: solid;
+outline-color: #817e7e;
+outline-width: thin;
 
 
+}
+.box-create form input[type='email']{
+    width: 85%;
+}
+.box-create form input[type='password']{
+    width: 85%;
+}
+.box-create input:focus{
+    outline-style: solid;
+outline-color: #414141;
+outline-width: thin;
+}
 
-
-
-
-
-
-
-
+.box-create form label span{color: red;}
+.box-create form input[type="submit"]{
+    width: 15%;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1b9110;
+    color: white;
+    font-family: test;
+    outline: none;
+    font-size: 18px;
+}
+.box-create form input[type="submit"]:hover{
+    background-color: #33b328; 
+}
 
 
 
