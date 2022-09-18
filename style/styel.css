@@ -1,0 +1,198 @@
+@font-face {
+    font-family: test;
+    src: url('../fonts/Cairo-VariableFont_wght.ttf');
+  }
+  @font-face {
+    font-family: test-2;
+    src: url('../fonts/Tajawal-Regular.ttf');
+  }
+*{margin: 0;padding: 0; }
+body{
+    background-color: rgb(221, 222, 223);
+}
+nav{width: 100%;height: 50px;background-color: #094379; position: fixed; z-index: 10000; }
+.logo a{
+font-family: test-2;
+font-size: 30px;
+color: white;
+padding-left: 10px;
+text-decoration: none;
+float: left;
+font-weight: 600;
+}
+.logo a span{color: #56be4c;}
+.btn-bar a{
+    float: right;
+    padding: 5px;
+    margin-top: 7.5px;
+  margin-right: 20px;
+    font-size: 12px;
+    display: block;
+    text-decoration: none;
+    background-color: #33676e;
+    color: white;
+font-family: test;
+
+}
+
+.btn-bar a:hover{
+    background-color: #0d4a53; 
+}
+
+.banner{
+    float: left;
+    width: 100%;
+
+    background-image: url('../imgs/banner-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: test;
+    color: rgb(0, 0, 0);
+ 
+    
+   padding: 180px 0;
+   
+    font-weight: 600;
+}
+.text-banner{
+    text-align: right;
+    padding-right: 20px;
+}
+.text-banner h1{
+    color: #14915b;
+}
+.text-banner a{
+    color: white;
+    padding: 10px;
+    background-color: #1b9110;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 19px;
+    border-radius: 20px;
+    font-weight: 200;
+}
+
+.banner a:hover{
+    background-color: #37aa2d;
+}
+.content{width: 100%;height: auto; float: left;}
+.title-sub{width:100%;height: 100px;
+text-align: center; font-size: 25px;font-family: test;line-height: 100px;margin-top: 70px;}
+.title-sub hr{
+    width: 30%;
+    margin: auto;
+}
+.price-sub{width:100%;height: 405px; display: flex; align-items: center; }
+.box-sub{width: 200px; height: 300px ;float: left;
+margin: auto;
+font-family: 
+test-2; font-size: 20px;
+text-align: center;
+background-color: #fffffffa;
+border-radius: 8px;
+color: black;
+cursor: pointer;
+}
+.box-sub span{font-size: 22px; color: #14915b; font-weight: 500;}
+.box-sub a{text-decoration: none; color: white; padding: 10px; background-color: #094379; border-radius: 15px;}
+.box-sub a:hover{background-color: #155591;}
+.web-info{width: 85%;height: 300px; margin: auto; margin-top: 100px; background-color: white;padding: 20px; clear:both; }
+
+
+.content-info{width: 100%; height: auto;font-size: 17px; font-weight: 100; padding-right: 10px;}
+.content-info{text-align: center; font-family: test; }
+.content-info span{font-size: 30px;}
+.all-btn{ width:100%;height: 400px;margin: auto;background-color: rgb(255, 255, 255);
+   
+    display: flex;
+    align-content: center;
+    margin: auto;  margin-top: 200px; }
+.box-btn{width: 200px; height: 200px ;
+    margin: auto;
+    font-family: 
+    test-2; font-size: 20px;
+    text-align: center;
+    background-color: #fffffffa;
+    border-radius: 8px;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;}
+.box-btn img{width: 50%;}
+.box-btn a{text-decoration: none; padding: 10px; color: black; }
+.box-btn a:hover{
+background-color: #1b9110;
+}
+.footer{width: 100%;height: 100px; background-color: #094379; }
+.text-footer{
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-family: test;
+    color: white;
+}
+
+/*====================== login page ==================*/
+.box-login{
+    clear: both; width: 600px; height: 500px;   margin: auto; margin-top: 200px;
+    background-color: #ffffff;
+}
+.title-login{
+    float: right; padding: 15px; font-family: test; font-size: 20px;
+}
+.box-login form input{
+    float: right;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    height: 40px;
+    text-align: right;
+    margin-right: 40px;
+    clear: both;
+    border: none;
+    background-color: rgb(229, 231, 233);
+    outline: none;
+    padding-right: 10px;
+    font-size: 17px;
+    
+    
+}
+.box-login form label{
+    clear: both;
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.box-login form input[type="submit"]{
+    width: 15%;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1b9110;
+    color: white;
+    font-family: test;
+}
+.box-login form input[type="submit"]:hover{
+    background-color: #33b328; 
+}
+.end-h{width: 100%;height:50px; clear: both; float: right;text-align: right;padding-right: 30px;
+    margin-top: 40px; }
+
+.end-h span{font-size: 15px;font-family: test;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
