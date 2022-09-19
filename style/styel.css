@@ -92,12 +92,12 @@ background-color: #fffffffa;
 border-radius: 8px;
 color: black;
 cursor: pointer;
-box-shadow: -1px 1px 5px black;
+box-shadow: 0.4px 0.5px 2px 0.5px black;
 }
-.box-sub span{font-size: 22px; color: #14915b; font-weight: 500;}
-.box-sub a{text-decoration: none; color: white; padding: 10px; background-color: #094379; border-radius: 15px;}
+.box-sub span{font-size: 19px; color: #155591; font-weight: 500; font-family: test; }
+.box-sub a{text-decoration: none; color: white; padding: 8px; background-color: #60656b; border-radius: 3px;font-weight: 30; font-size: 18px; }
 .box-sub a:hover{background-color: #155591;}
-.web-info{width: 85%;height: 300px; margin: auto; margin-top: 100px; background-color: white;padding: 20px; clear:both; }
+.web-info{width: 90%;height: 300px; margin: auto; margin-top: 100px; background-color: white;padding: 20px; clear:both; }
 
 
 .content-info{width: 100%; height: auto;font-size: 17px; font-weight: 100; padding-right: 10px;text-align: center; font-family: test;}
@@ -143,7 +143,7 @@ background-color: #1b9110;
 }
 .box-login form input{
     float: right;
-    width: 80%;
+    width: 85%;
     margin: auto;
     margin-top: 20px;
     height: 40px;
@@ -178,7 +178,7 @@ background-color: #1b9110;
 .box-login form input[type="submit"]:hover{
     background-color: #246caf; 
 }
-.end-h{width: 100%;height:50px; clear: both; float: right;text-align: right;padding-right: 30px;
+.end-h{width: 100%;height:50px; clear: both; float: right;text-align: right;padding-right:40px;
     margin-top: 40px; }
 
 .end-h span{font-size: 15px;font-family: test;}
