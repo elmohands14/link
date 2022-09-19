@@ -116,12 +116,14 @@ box-shadow: 0.4px 0.5px 2px 0.5px black;
     background-color: #fffffffa;
     border-radius: 8px;
     color: black;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     cursor: pointer;}
 .box-btn img{width: 50%;}
-.box-btn a{text-decoration: none; padding: 10px; color: black; }
+.box-btn a{text-decoration: none; padding: 5px; color: black; }
 .box-btn a:hover{
-background-color: #1b9110;
+/* background-color: #1b9110; */
+border: 1px solid;
+
 }
 .footer{width: 100%;height: 100px; background-color: #094379; }
 .text-footer{
