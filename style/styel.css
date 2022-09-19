@@ -238,6 +238,18 @@ outline-width: thin;
 
 .content-info-2 span{font-size: 30px;}
 
+/*======================= page not fond ============ */
+.not-fond{
+    width: 400px; height: 200px; margin: auto;
+    text-align: center;
+    background-color: #ffffff;
+    line-height: 200px;
+    margin-top: 100px;
+    font-family: test;
+    color: red;
+
+}
+
 
 
 
