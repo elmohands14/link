@@ -43,7 +43,7 @@ font-family: test;
     float: left;
     width: 100%;
 
-    background-image: url('../imgs/banner-4.jpg');
+    background-image: url('../imgs/banner-5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -100,6 +100,7 @@ text-align: center; font-size: 25px;font-family: test;line-height: 100px;margin-
 .box-sub span{font-size: 19px; color: #155591; font-weight: 500; font-family: test; }
 .box-sub a{text-decoration: none; color: white; padding: 8px; background-color: #60656b; border-radius: 3px;font-weight: 30; font-size: 18px; }
 .box-sub a:hover{background-color: #155591;}
+.box-sub a:focus{background-color: #155591;}
 .web-info{width: 90%;height: 300px; margin: auto; margin-top: 100px; background-color: white;padding: 20px; clear:both; }
 
 
@@ -239,7 +240,7 @@ outline-width: thin;
 /*====================== page web info ================*/
 
 .content-info-2{ height: auto;font-size: 17px; padding: 40px;
-     font-weight: 100; text-align: center; font-family: test;}
+     font-weight: 100; text-align: right; font-family: test;}
 
 .content-info-2 span{font-size: 30px;}
 
@@ -254,6 +255,79 @@ outline-width: thin;
     color: red;
 
 }
+
+/*========================== page call center =========== */
+.call-info{width: 80%;height: 250px;background-color: white; clear: both;
+margin: auto;
+font-family: test;
+text-align: center;
+line-height: 50px;
+padding-top: 50px;
+
+}
+.call-data{
+    clear: both;
+    width: 80%;
+    height: 550px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.call-data span{font-family: test; }
+.call-data form label{display: block; margin-top: 20px; float: right;margin-right: 5%;}
+.call-data form input{width: 90%; height: 40px;margin-top: 20px;text-align: right;
+border: none;
+background-color: rgb(227, 233, 240);
+outline: none;
+padding-right: 10px;
+font-size: 17px;
+}
+.call-data form input:focus{
+    outline-style: solid;
+outline-color: #414141;
+outline-width: thin;
+}
+.call-data form textarea{
+    width: 90%;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    background-color: rgb(227, 233, 240);
+    text-align: right;
+    padding-right: 10px;
+    font-size: 16px;
+    height: 150px;
+}
+.call-data form textarea:focus{
+    outline-style: solid;
+outline-color: #414141;
+outline-width: thin;
+}
+.call-data form input[type='submit']{
+    padding: 0;
+  width:100px ;
+    float: right;
+    margin-right: 5%;
+    text-align: center;
+    font-family: test;
+    background-color: #094379;
+    color: white;
+}
+.call-data form input[type="submit"]:hover{
+    background-color: #246caf; 
+    outline: none;
+}
+
+
+
+
+
+
+
+
 
 
 
