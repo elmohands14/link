@@ -257,11 +257,11 @@ outline-width: thin;
 }
 
 /*========================== page call center =========== */
-.call-info{width: 80%;height: 250px;background-color: white; clear: both;
+.call-info{width: 80%;height: 190px;background-color: white; clear: both;
 margin: auto;
 font-family: test;
 text-align: center;
-line-height: 50px;
+line-height: 40px;
 padding-top: 50px;
 
 }
@@ -315,6 +315,7 @@ outline-width: thin;
     font-family: test;
     background-color: #094379;
     color: white;
+    cursor: pointer;
 }
 .call-data form input[type="submit"]:hover{
     background-color: #246caf; 
