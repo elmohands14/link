@@ -29,12 +29,19 @@ font-weight: 600;
     font-size: 12px;
     display: block;
     text-decoration: none;
-    background-color: #33676e;
+    /* background-color: #33676e; */
     color: white;
 font-family: test;
 
 }
+.btn-icon{
 
+    font-size: 25px;
+
+}
+.btn-icon-set a{
+    background-color: none;
+}
 .btn-bar a:hover{
     background-color: #0d4a53; 
 }
@@ -42,21 +49,20 @@ font-family: test;
 .banner{
     float: left;
     width: 100%;
-
     background-image: url('../imgs/banner-5.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size:cover;
+    background-position: left;
     font-family: test;
     color: rgb(0, 0, 0);
- 
-   padding: 180px 0;
-   
+   padding: 190px 0;
+  
     font-weight: 600;
 }
 .text-banner{
     text-align: right;
-    padding-right: 20px;
+    padding-right:20px;
+     
 }
 .text-banner h1{
     color: #14915b;
@@ -97,8 +103,8 @@ text-align: center; font-size: 25px;font-family: test;line-height: 100px;margin-
     font-weight: 100;
     box-shadow: 0.4px 0.5px 2px 0.5px black;
 }
-.box-sub span{font-size: 19px; color: #155591; font-weight: 500; font-family: test; }
-.box-sub a{text-decoration: none; color: white; padding: 8px; background-color: #60656b; border-radius: 3px;font-weight: 30; font-size: 18px; }
+.box-sub span{font-size: 19px; color: rgb(90, 116, 19); font-weight: 500; font-family: test; }
+.box-sub a{text-decoration: none; color: white; padding: 8px; background-color: #60656b; border-radius: 3px;font-weight: 30; font-size: 15px; }
 .box-sub a:hover{background-color: #155591;}
 .box-sub a:focus{background-color: #155591;}
 .web-info{width: 90%;height: 300px; margin: auto; margin-top: 100px; background-color: white;padding: 20px; clear:both; }
@@ -122,14 +128,14 @@ text-align: center; font-size: 25px;font-family: test;line-height: 100px;margin-
     color: black;
     /* border: 1px solid black; */
     cursor: pointer;}
-.box-btn img{width: 50%;}
+.box-btn img{width: 40%;}
 .box-btn a{text-decoration: none; padding: 5px; color: black; }
 .box-btn a:hover{
 /* background-color: #1b9110; */
-border: 1px solid;
+color: blue;
 
 }
-.footer{width: 100%;height: 100px; background-color: #094379; }
+.footer{width: 100%;height: 100px; background-color: #094379; clear: both; float: left;}
 .text-footer{
     width: 300px;
     text-align: center;
@@ -143,6 +149,7 @@ border: 1px solid;
 .box-login{
     clear: both; width: 600px; height: 500px;   margin: auto; margin-top: 200px;
     background-color: #ffffff;
+    box-shadow: 0.4px 0.5px 2px 0.5px black;
 }
 .title-login{
     float: right; padding: 15px; font-family: test; font-size: 20px;
@@ -196,7 +203,9 @@ outline-width: thin;
 
 /*========================= create page ==============*/
 .box-create{    clear: both; width: 600px; height: 500px;   margin: auto; margin-top: 200px;
-    background-color: #ffffff;}
+    background-color: #ffffff;
+    box-shadow: 0.4px 0.5px 2px 0.5px black;
+}
 
 .title-create{    float: right; padding: 15px; font-family: test; font-size: 20px;}
 .box-create label{ float: right;margin-right: 40px; margin-top: 25px;}
@@ -321,6 +330,117 @@ outline-width: thin;
     background-color: #246caf; 
     outline: none;
 }
+
+
+/*==================== page panel ==================== */
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #094379;
+}
+header .logo a{font-family: test-2;
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+    float: left;
+    font-weight: 600;}
+
+    .all-box-panel{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 100px;
+        padding-bottom: 100px;
+      
+    }
+    .all-box-panel a{
+        text-decoration: none;
+        color: black;
+    }
+  
+    .box-panel span:hover{color: #246caf;}
+   
+    .box-panel{
+        width: 150px; height:150px;
+        margin: 40px;
+        border-radius: 8px;
+        background-color: #fdfdfc;
+        box-shadow: 0.4px 0.5px 2px 0.5px black;
+        text-align: center;
+        font-family: test;
+        padding-top: 20px;
+        transition: 0.5s;
+
+    }
+    .box-panel:hover{background-color: #f8d761;}
+    .box-panel i{font-size: 50px; color:#213b4e;}
+ .box-panel img{width: 90%;margin: auto; padding-top: 5px;}
+
+
+
+ /*=============================================== page my profile ================*/
+ .box-profile-1{   clear: both; width: 90%; height: 550px;   margin: auto; margin-top: 100px;
+    background-color: #ffffffcb;     box-shadow: 0.4px 0.5px 2px 0.5px black;}
+.top-title{text-align: right; width: 100%; height: 100px; border-bottom: 0.2px solid rgb(163, 163, 163);
+}
+.top-title img{display: inline-block; float: right;}
+.top-title span {
+    display: inline-block;
+    float: right;
+    font-family: test;
+    padding-top: 15px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.top-title span p{font-size: 12px;}
+.all-box-myprof{width: 100%;}
+.all-box-myprof form label{display: block; width: 50%;float: right; text-align: center;margin-top: 20px;
+font-family: test;
+color: #4e4e4e;
+}
+.all-box-myprof form input{
+    width: 30%;text-align: center;margin: auto; margin-top: 20px;
+   float: right;
+   margin-right: 10%;
+   margin-left: 8%;
+    height: 40px;
+    font-size: 17px;
+
+    border: none;
+    outline-style: solid;
+    outline-color: #414141;
+    outline-width: thin;
+    font-family: test;
+}
+.all-box-myprof form .in2{width: 78%; margin: auto;margin-top: 20px;   margin-right: 10%;
+    margin-left: 2%;}
+    .all-box-myprof form input[type="submit"]{
+
+        background-color: #0d4a53;
+        color: white;
+        clear: both;
+        margin: auto;
+        margin-top: 40px;
+        width: 150px;
+        margin-right: 10%;
+        cursor: pointer;
+        border: none;
+        padding: 0;
+       
+    }
+    .all-box-myprof form input[type="submit"]:hover{
+        background-color: #1e7280;
+     
+    }
+
+
+
 
 
 
