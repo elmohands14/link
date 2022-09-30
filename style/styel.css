@@ -76,6 +76,7 @@ font-family: test;
     font-size: 19px;
     border-radius: 8px;
     font-weight: 200;
+ 
 }
 
 .banner a:hover{
@@ -289,10 +290,11 @@ padding-top: 50px;
 .call-data form label{display: block; margin-top: 20px; float: right;margin-right: 5%;}
 .call-data form input{width: 90%; height: 40px;margin-top: 20px;text-align: right;
 border: none;
+color: #1d1c1c;
 background-color: rgb(227, 233, 240);
 outline: none;
 padding-right: 10px;
-font-size: 17px;
+font-size: 16px;
 }
 .call-data form input:focus{
     outline-style: solid;
@@ -309,6 +311,7 @@ outline-width: thin;
     padding-right: 10px;
     font-size: 16px;
     height: 150px;
+    padding-top: 5px;
 }
 .call-data form textarea:focus{
     outline-style: solid;
@@ -347,6 +350,21 @@ header .logo a{font-family: test-2;
     float: left;
     font-weight: 600;}
 
+.btn-bar ul li{    float: right;
+        padding: 5px;
+        margin-top: 2.5px;
+      margin-right: 20px;
+        font-size: 15px;
+        display: block;
+        list-style: none;
+        text-decoration: none;
+        /* background-color: #33676e; */
+        cursor: pointer;
+       color: #eeecec;
+  }
+
+  .btn-bar ul li:hover{ color: #f1d9d9;}
+    .btn-bar ul li i {font-size: 35px;}
     .all-box-panel{
         width: 100%;
         height: auto;
@@ -358,7 +376,7 @@ header .logo a{font-family: test-2;
         padding-bottom: 100px;
       
     }
-    .all-box-panel a{
+    .all-box-panel .box-panel a{
         text-decoration: none;
         color: black;
     }
@@ -375,6 +393,7 @@ header .logo a{font-family: test-2;
         font-family: test;
         padding-top: 20px;
         transition: 0.5s;
+        cursor: pointer;
 
     }
     .box-panel:hover{background-color: #f8d761;}
@@ -384,7 +403,7 @@ header .logo a{font-family: test-2;
 
 
  /*=============================================== page my profile ================*/
- .box-profile-1{   clear: both; width: 90%; height: 550px;   margin: auto; margin-top: 100px;
+ .box-profile-1{   clear: both; width: 90%; height: 550px;   margin: auto; margin-top: 130px;
     background-color: #ffffffcb;     box-shadow: 0.4px 0.5px 2px 0.5px black;}
 .top-title{text-align: right; width: 100%; height: 100px; border-bottom: 0.2px solid rgb(163, 163, 163);
 }
@@ -439,7 +458,28 @@ color: #4e4e4e;
      
     }
 
+    /*========================== box user sm ================*/
+    .box-user-sm{width: 130px;height: 70px; background-color: #cbd3d6ee; 
+         position: absolute;right: 5px;top: 52.5px;box-shadow: 0.4px 0.5px 3px 0.5px black;
+         border-radius: 8px;
+         display: none;
+         text-align: center;
+         padding: 10px;
 
+        }
+    .box-user-sm a{text-decoration: none;padding: 5px; font-family: test; color: black;}  
+    .box-user-sm form input{
+        margin-top: 10px;
+        background: none;
+        border: none;
+        font-family: test;
+        font-size: 15px;
+        cursor: pointer;
+    }  
+    .box-user-sm a:hover{color: blue;}
+    .box-user-sm form input:hover{
+        color: blue;
+    }
 
 
 

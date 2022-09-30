@@ -7,19 +7,32 @@
     <title>link-rent</title>
     <link rel="stylesheet" href="style/styel.css">
     <link rel="icon" href="imgs/icon.png" type="image/png" >
+    <link rel="stylesheet" href="font icon/fontawesome/css/all.css">
+    <script src="library/jquery.js"></script>
+    <script src="js/all.js"></script>
 </head>
 <body>
-    <nav>
-        <div class="logo"><a href="index.html" >Link-rent</a></div>
-        <div class="btn-bar">
-            <a href="myprofile.html">  حسابي </a>
-            <a href="login.html"> معلومات الاشتراك</a>
+    <header>
+        <div class="logo"> <a href="panel.html">Link-rent</a> </div>
+    
+        <div class="btn-bar btn-icon-set">
+             <ul><li id="btn-bar"><i class="fa-solid fa-address-card"></i></li></ul>
+            <a href="#">معلومات الاشتراك</a>
             
         
         </div>
-    </nav>
-    <div style="float: left;width:100%;height:150px;clear: both;"></div>
+      
+    </header>
+    <div style="float: left;width:100%;height:150px;clear: both;" class="a1"></div>
     <!--------------------------------->
+    <!----------------------- box user sm  -->
+<div class="box-user-sm" id="box">
+    <a href="myprofile.html">حسابي</a>
+    <br>
+    <form action="">
+       <input type="submit" value="تسجيل  خروج">
+    </form>
+   </div>
 
     <div class="call-info">
         phone : 01126498292
@@ -35,7 +48,7 @@
      <form action="">
         <label for="">البريد الاكتروني</label>
         <br>
-        <input type="email" placeholder="ادخل بريدك الاكتروني الخاص بك للتواصل" required>
+        <input type="email" placeholder="ادخل بريدك الاكتروني الخاص بك للتواصل" required value="salahspyder@gmail.com">
         <br>
         <label for="">عنوان الموضوع</label>
         <br>
