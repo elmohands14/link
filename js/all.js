@@ -6,3 +6,20 @@ $(document).ready(function(){
         $('#box').hide(300)
         });
 });
+
+
+
+// page index efect scrooling 
+
+let section = document.querySelector('.content-info');
+
+window.onscroll= function(){
+    if(window.scrollY >= section.offsetTop){
+        console.log('tets yes');
+    }
+}
+
+
+
+
+
